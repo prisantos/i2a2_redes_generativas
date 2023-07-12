@@ -37,7 +37,7 @@ loginForm.addEventListener("submit", function(event) {
   // Autenticar o usuário
   if (authenticateUser(username, password)) {
     // Login bem-sucedido, redirecionar para a página principal
-    window.location.href = "./pages/product.html";
+    window.location.href = "../pages/product.html";
   } else {
     // Credenciais inválidas, exibir mensagem de erro
     const errorMessage = document.createElement("div");
