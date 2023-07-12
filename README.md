@@ -1,1 +1,0 @@
-# i2a2_redes_generativas
